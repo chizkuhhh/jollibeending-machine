@@ -1,5 +1,15 @@
 # jollibeending-machine
+This project was developed as part of a group effort. Below is a brief description of the project and my specific contributions.
+
+## Project Overview
 A Java-based vending machine factory simulator with a GUI built using IntelliJ, featuring regular and special vending machines based on Jollibee's menu.
+
+## My Contributions
+- Worked on both backend and GUI implementation
+
+## Collaborators
+This project was developed in collaboration with:
+- Andrew Hiro Ishikawa - Created the visual elements needed and worked on backend implementation
 
 ## Creating a Machine
 - Select Create a Vending Machine from the Main Menu
