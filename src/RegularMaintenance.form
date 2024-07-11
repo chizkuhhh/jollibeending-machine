@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegularMaintenance">
+  <grid id="27dc6" binding="regularMain" layout-manager="GridLayoutManager" row-count="16" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="32" y="26" width="1098" height="898"/>
+    </constraints>
+    <properties>
+      <background color="-1292"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a4f0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="VAG Rounded" size="18" style="1"/>
+          <foreground color="-2359296"/>
+          <text value="Regular Vending Machine - Maintenance Mode"/>
+        </properties>
+      </component>
+      <scrollpane id="399c1" binding="scrollContent">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1292"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d39c1" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints/>
+            <properties>
+              <background color="-1292"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="87ea6" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="4c8da" class="javax.swing.JTextPane" binding="item1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="ab17f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/sundae.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="884eb" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7b65f" class="javax.swing.JTextPane" binding="item2">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="39990" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/coke.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="89d6c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="7d76a" class="javax.swing.JTextPane" binding="item4">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="b598e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/chicken.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b9cd9" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6be5b" class="javax.swing.JTextPane" binding="item3">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="e42e7" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/steak.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="fb35e" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c4a4e" class="javax.swing.JTextPane" binding="item6">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="31bd0" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/burgir.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ee95a" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="56b9a" class="javax.swing.JTextPane" binding="item5">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="80816" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/spaghetti.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e60a7" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="62d48" class="javax.swing.JTextPane" binding="item8">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="a0429" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/pie.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ec08e" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1292"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c01c5" class="javax.swing.JTextPane" binding="item7">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1292"/>
+                      <editable value="false"/>
+                      <font name="VAG Rounded" style="1"/>
+                      <opaque value="true"/>
+                      <text value="item"/>
+                    </properties>
+                  </component>
+                  <component id="b0a6e" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <icon value="design_images/fries.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <component id="e9570" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2359296"/>
+          <contentAreaFilled value="true"/>
+          <font name="VAG Rounded" style="1"/>
+          <foreground color="-1292"/>
+          <opaque value="true"/>
+          <text value="&lt; Back"/>
+        </properties>
+      </component>
+      <component id="9f1fb" class="javax.swing.JTextPane" binding="processDisplay">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1292"/>
+          <editable value="false"/>
+          <font name="VAG Rounded" style="1"/>
+          <text value="display"/>
+        </properties>
+      </component>
+      <grid id="2ffd5" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="9" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1292"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="286ef" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="9" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1292"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="936cf" class="javax.swing.JButton" binding="stockRestockItemsButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-86249"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="VAG Rounded" style="1"/>
+                  <foreground color="-1292"/>
+                  <opaque value="true"/>
+                  <text value="Stock / Restock Items"/>
+                </properties>
+              </component>
+              <component id="51927" class="javax.swing.JButton" binding="collectPaymentsButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-86249"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="VAG Rounded" style="1"/>
+                  <foreground color="-1292"/>
+                  <opaque value="true"/>
+                  <text value="Collect Payments"/>
+                </properties>
+              </component>
+              <component id="f9aa6" class="javax.swing.JButton" binding="printTransactionSummaryButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-86249"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="VAG Rounded" style="1"/>
+                  <foreground color="-1292"/>
+                  <opaque value="true"/>
+                  <text value="Print Transaction Summary"/>
+                </properties>
+              </component>
+              <component id="57a51" class="javax.swing.JButton" binding="setItemPriceButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-86249"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="VAG Rounded" style="1"/>
+                  <foreground color="-1292"/>
+                  <opaque value="true"/>
+                  <text value="Set Item Price"/>
+                </properties>
+              </component>
+              <component id="e541f" class="javax.swing.JButton" binding="replenishMoneyStashButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="6" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-86249"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="VAG Rounded" style="1"/>
+                  <foreground color="-1292"/>
+                  <opaque value="true"/>
+                  <text value="Replenish Money Stash"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="c1828" class="javax.swing.JTextPane" binding="moneyDisplay">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1292"/>
+              <editable value="false"/>
+              <font name="VAG Rounded"/>
+              <opaque value="true"/>
+              <text value="money"/>
+            </properties>
+          </component>
+          <component id="dbddf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="VAG Rounded" size="16" style="1"/>
+              <foreground color="-2359296"/>
+              <text value="Change Inventory"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
