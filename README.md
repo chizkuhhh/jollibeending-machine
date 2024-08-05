@@ -55,6 +55,11 @@ This project was developed in collaboration with:
 - **Regular Vending Machine**: Insert money, select an item, and receive the item along with change if applicable.
 - **Special Vending Machine**: Select combos and add-ons. Access maintenance features to manage the vending machine's operations.
 
+## Demo
+
+![Jollibeending Demo](./assets/jollibeending-regular.gif)
+![Jollibeending Demo](./assets/jollibeending-special-cut.gif)
+
 ## Contact
 For any inquiries, feel free to reach out to:
 - Simone Franceska Emanuelle M. Capio - simone\_franceska\_capio@dlsu.edu.ph
