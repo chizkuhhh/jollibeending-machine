@@ -41,7 +41,7 @@ This project was developed in collaboration with:
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/jollibeending-machine.git
+    git clone https://github.com/chizkuhhh/jollibeending-machine.git
     ```
 2. Open the project in IntelliJ IDEA.
 3. Build the project to resolve dependencies.
